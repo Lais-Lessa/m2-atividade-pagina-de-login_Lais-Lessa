@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("./reset.css");
+@import url("./forms.css");
+
+main,
+div,
+section,
+img,
+p,
+strong,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+label,
+select,
+a,
+button {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+:root {
+  --color-primary: /* definir */ ;
+  --color-grey-1: #191c1f;
+  --color-grey-2: #212529;
+  --color-grey-3: #343a40;
+  --color-grey-4: #adb5bd;
+  --color-grey-5: #ced4da;
+  --color-grey-6: #edf2ff;
+}
+
+/* .container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 576px) {
+  .container,
+  .container-sm {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+} */
